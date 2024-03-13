@@ -582,10 +582,6 @@ video {
   }
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -624,18 +620,6 @@ video {
 
 .top-full {
   top: 100%;
-}
-
-.bottom-\[2rem\] {
-  bottom: 2rem;
-}
-
-.bottom-3 {
-  bottom: 0.75rem;
-}
-
-.left-2 {
-  left: 0.5rem;
 }
 
 .z-10 {
@@ -991,6 +975,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pb-12 {

@@ -55,3 +55,18 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   darkToggle.checked = false;
 }
 
+
+//Audio
+document.addEventListener("DOMContentLoaded", function() {
+  var audio = document.getElementById('audio');
+  var playPauseButton = document.getElementById('play-pause-btn');
+
+  playPauseButton.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+});
+

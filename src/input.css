@@ -29,3 +29,20 @@ body {
   @apply translate-x-3;
 }
 
+.audio-player {
+ @apply position: fixed;
+        bottom: 10px;
+        left: 10px;
+        z-index: 1000;
+}
+
+#audio {
+ @apply width: 200px;
+}
+
+#play-pause-btn {
+ @apply display: block;
+         margin-top: 5px;
+}
+
+
